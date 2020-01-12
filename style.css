@@ -1,0 +1,40 @@
+.background{
+    background: linear-gradient(blueviolet 10%, mediumslateblue 60%, slateblue 30%);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+}
+.nav{
+    margin: 0px 100px;
+    display: flex;
+    padding: 10px 0;
+}
+
+.nav h2{
+    display: inline-block;
+    flex:1;
+}
+.nav .nav-links{
+    display: inline-block;
+}
+nav .nav-links .tabs{
+    display: inline-block;
+    margin: 0px 45px;
+}
+.nav .nav-links .tabs a{
+    margin: 0 5px;
+}
+nav .nav-links .login {
+    display: inline-block;
+}
+nav .nav-links .login a{
+    margin: 0 5px;
+}
+.nav .nav-links .login .support{
+    padding: 7px 20px;
+    border-radius: 5px;
+    background: #81d398;
+    color: white;
+}
