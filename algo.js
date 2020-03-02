@@ -97,3 +97,5 @@ function fib(x){
 }
 console.log(fib(180));
 
+//// Values
+var heights = [5,6,2,1,2,9,4]
